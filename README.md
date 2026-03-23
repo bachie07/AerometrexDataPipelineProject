@@ -142,3 +142,32 @@ fix/xxx     → bug fixes e.g. fix/validation-error
 - Never commit `node_modules/`
 - Never commit `venv/`
 - Never commit imagery files (`.tif`, `.ecw`, `.jp2`)
+
+
+## Daily Workflow
+1. Always pull latest changes first
+   git pull origin dev
+
+2. Create your own feature branch
+   git checkout -b feature/your-feature
+
+3. Do your work and commit regularly
+   git add .
+   git commit -m "description of change"
+
+4. Push your feature branch
+   git push origin feature/your-feature
+
+5. Create pull request into dev on GitHub
+```
+
+**Things that cause conflicts:**
+- Two people editing the same file at the same time
+- Not pulling before starting work
+- Working directly on dev or main
+
+**Things that prevent conflicts:**
+- Each person owns specific files/folders
+- Pull before you start every session
+- Commit and push regularly, not in big chunks
+- Clear task assignment in Jira
