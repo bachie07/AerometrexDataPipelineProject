@@ -1,0 +1,40 @@
+# Node
+node_modules/
+frontend/node_modules/
+backend/node_modules/
+
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment variables
+.env
+*.env
+
+# AWS
+*.pem
+.aws/
+
+# Mac 
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# VSCode
+.vscode/
+*.code-workspace
+
+# Imagery files (never commit)
+*.tif
+*.tiff
+*.ecw
+*.jp2
